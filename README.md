@@ -28,7 +28,9 @@ This Python script demonstrates **ARP cache poisoning** using the `scapy` librar
 - Linux-based OS (Tested on Kali Linux)
 
 Install dependencies:
-<pre>sudo apt install python3-pip
+<pre>git clone https://github.com/niteesh-reddy-g/arp_cache_poisioning
+cd arp_cache_poisoning
+sudo apt install python3-pip
 pip3 install scapy</pre>
 
 
@@ -45,6 +47,9 @@ pip3 install scapy</pre>
 <pre>interface = 'eth0'
 target_ip = '192.168.1.180'
 gateway_ip = '192.168.1.1'</pre>
+
+## Execution
+<pre>sudo python arp_cache_poisoner.py</pre>
 
 ## Output
   Captured packets will be saved to a .pcap file named _arper.pcap_. You can open it with Wireshark or similar tools.
