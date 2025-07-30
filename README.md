@@ -34,31 +34,18 @@ pip3 install scapy
 
 
 ## Usage
-Edit the Script:
+  1. Edit the Script:
+     - Change interface, target_ip, and gateway_ip as per your setup.
 
-Change interface, target_ip, and gateway_ip as per your setup.
+  2. Run the Script with Sudo:
+     - sudo python3 arp_poisoner.py
+  3. Stop Execution:
+     - Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
 
-Run the Script with Sudo:
+## Sample Configuration
+  ``interface = 'eth0'
+  target_ip = '192.168.1.180'
+  gateway_ip = '192.168.1.1'``
 
-bash
-Copy
-Edit
-sudo python3 arp_poisoner.py
-Stop Execution:
-Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
-
-🧪 Sample Configuration
-python
-Copy
-Edit
-interface = 'eth0'
-target_ip = '192.168.1.180'
-gateway_ip = '192.168.1.1'
-📁 Output
-Captured packets will be saved to a .pcap file:
-
-bash
-Copy
-Edit
-arper.pcap
-You can open it with Wireshark or similar tools.
+## Output
+  Captured packets will be saved to a .pcap file named _arper.pcap_. You can open it with Wireshark or similar tools.
