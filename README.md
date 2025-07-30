@@ -45,8 +45,8 @@ Install dependencies:
      - Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
 
 ## Sample Configuration
-  ``interface = 'eth0' \n
-  target_ip = '192.168.1.180' \n
+  <pre>```interface = 'eth0'```</pre>
+  ``target_ip = '192.168.1.180' \n
   gateway_ip = '192.168.1.1'``
 
 ## Output
