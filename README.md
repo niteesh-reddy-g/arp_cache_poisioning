@@ -45,9 +45,9 @@ Install dependencies:
      - Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
 
 ## Sample Configuration
-  <pre>```interface = 'eth0'```</pre>
-  ``target_ip = '192.168.1.180' \n
-  gateway_ip = '192.168.1.1'``
+  <pre>interface = 'eth0'
+  target_ip = '192.168.1.180'
+  gateway_ip = '192.168.1.1'</pre>
 
 ## Output
   Captured packets will be saved to a .pcap file named _arper.pcap_. You can open it with Wireshark or similar tools.
