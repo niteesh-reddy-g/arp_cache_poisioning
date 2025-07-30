@@ -49,5 +49,5 @@ gateway_ip = '192.168.1.1'</pre>
 ## Output
   Captured packets will be saved to a .pcap file named _arper.pcap_. You can open it with Wireshark or similar tools.
 
-Author
-Niteesh Reddy G
+## Author
+  Niteesh Reddy G
