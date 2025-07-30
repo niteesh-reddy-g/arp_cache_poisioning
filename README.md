@@ -28,9 +28,9 @@ This Python script demonstrates **ARP cache poisoning** using the `scapy` librar
 - Linux-based OS (Tested on Kali Linux)
 
 Install dependencies:
-bash
-sudo apt install python3-pip
-pip3 install scapy
+``bash \n
+sudo apt install python3-pip \n
+pip3 install scapy``
 
 
 ## Usage
@@ -43,8 +43,8 @@ pip3 install scapy
      - Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
 
 ## Sample Configuration
-  ``interface = 'eth0'
-  target_ip = '192.168.1.180'
+  ``interface = 'eth0' \n
+  target_ip = '192.168.1.180' \n
   gateway_ip = '192.168.1.1'``
 
 ## Output
