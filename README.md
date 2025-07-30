@@ -29,7 +29,9 @@ This Python script demonstrates **ARP cache poisoning** using the `scapy` librar
 
 Install dependencies:
 ``bash ``
+
 ``sudo apt install python3-pip``
+
 ``pip3 install scapy``
 
 
