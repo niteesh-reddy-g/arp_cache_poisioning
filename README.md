@@ -28,8 +28,7 @@ This Python script demonstrates **ARP cache poisoning** using the `scapy` librar
 - Linux-based OS (Tested on Kali Linux)
 
 Install dependencies:
-<pre>bash
-sudo apt install python3-pip
+<pre>sudo apt install python3-pip
 pip3 install scapy</pre>
 
 
