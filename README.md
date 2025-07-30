@@ -28,11 +28,9 @@ This Python script demonstrates **ARP cache poisoning** using the `scapy` librar
 - Linux-based OS (Tested on Kali Linux)
 
 Install dependencies:
-``bash ``
-
-``sudo apt install python3-pip``
-
-``pip3 install scapy``
+<pre>bash
+sudo apt install python3-pip
+pip3 install scapy</pre>
 
 
 ## Usage
@@ -45,9 +43,9 @@ Install dependencies:
      - Press CTRL+C to stop the attack. The script will automatically restore ARP tables.
 
 ## Sample Configuration
-  <pre>interface = 'eth0'
-  target_ip = '192.168.1.180'
-  gateway_ip = '192.168.1.1'</pre>
+  <pre>interface = 'eth0' 
+    target_ip = '192.168.1.180'
+    gateway_ip = '192.168.1.1'</pre>
 
 ## Output
   Captured packets will be saved to a .pcap file named _arper.pcap_. You can open it with Wireshark or similar tools.
